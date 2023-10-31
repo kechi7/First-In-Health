@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+*{
+  margin: 0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: white;
+}
+/* ///////////NAV BAR////////////////////////////////////////////////*/
+.NavBar {
+  background-color: #1B014B;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px; /* Adjust the padding as needed */
+}
+
+.navBarButtons {
+  display: flex;
+  justify-content: center; /* Center the titles horizontally */
+  gap: 20px; /* Adjust the gap between buttons as needed */
+  flex-grow: 1; /* Distribute equal space around titles */
+}
+
+.navBarButtons a {
+  text-decoration: none;
+  color: white; /* Text color for navbar links */
+  font-size: 16px;
+  padding: 10px; /* Add padding to titles for spacing */
+}
+
+
+/* ///////////MISSION STATEMENT////////////////////////////////////////////////*/
+.mission1
+{
+  font-size: 30px;
+  color:#1B014B;
+  padding-top: 10px;
+  /* background: #00003A ; */
+  display: flex;
+  margin-top: 100px;
+  padding-left: 50px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.logo1{
+  height: 500px;
+  width: 550px;
+  margin-bottom: 60px;
+  margin-right: 60px;
+}
+
+/* ///////////FOOTER////////////////////////////////////////////////*/
+.footer{
+  width: 100vw;
+  padding-top:30px;
+  padding-bottom:30px;
+  background-color:black;
+  border:3px solid #D2B3FF;
+  color:#D2B3FF;
+  display:flex;
+  justify-content: space-around;
+  text-align:center;
+}
+.footer div{
+   text-align:center;
+   background-color:black;
+ }
+.footer div h3{
+  font-weight:300;
+  margin-bottom:30px; 
+  letter-spacing:4px;
+  color:#D2B3FF;
+}
+.col-1 a{
+  display:block;
+  text-decoration:none;
+  color:#D2B3FF;
+  margin-bottom:10px;
+  margin-right:30px;
+}
+.col-1 a:hover{
+  transition:0.5s ease;
+  opacity:0.5;
+}
+
+form input{
+  width:400px;
+  height:45px;
+  border-radius:4px;
+  text-align:center;
+  margin-top: 20px;
+  margin-bottom:40px;
+  outline:none;
+  border: none;
+}
+form button{
+  margin-top:20px;
+  background: transparent;
+  border:2px solid #D2B3FF;
+  color:#D2B3FF;
+  border-radius: 30px;
+  padding: 10px 30px;
+  font-size: 15px;
+  cursor:pointer;
+}
+
+.col-3{
+  color:#D2B3FF;
+}
+
+
